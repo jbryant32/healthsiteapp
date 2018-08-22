@@ -1,0 +1,169 @@
+a[href^="mailto"]::before{
+  content: "\2709";
+}
+a{
+  text-decoration: none!important;
+}
+
+.testimonials-banner {
+  background-color: #90c539;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.testimony-container {
+  
+}
+.profile-item {
+  width: 100%;
+  padding: 0px 15px;
+}
+.profile {
+  background-image: url("/images/capri_150.png");
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 95px;
+  border-color: gray;
+  border-style: solid;
+  border-width: thick;
+  background-clip: padding-box;
+  margin: 20px;
+}
+.profile-2 {
+  background-image: url("/images/lizzie_profile_150.png");
+  background-size: 100px;
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 95px;
+  border-color: gray;
+  border-style: solid;
+  border-width: thick;
+  background-clip: padding-box;
+  margin: 20px;
+}
+.profile-3 {
+  background-image: url("/images/svg/User-01.svg");
+
+  width: 100px;
+  height: 100px;
+  float: left;
+  border-radius: 95px;
+  border-color: gray;
+  border-style: solid;
+  border-width: thick;
+  background-clip: padding-box;
+  margin: 20px;
+}
+.profile-qoute-container a{
+  text-decoration: none!important;
+  color: #ef7575;
+}
+.profile-qoute-container {
+  width: 100%;
+  height: auto;
+  padding: 0px 15px;
+}
+.profile-qoute-footer {
+  width: 100%;
+  height: 80px;
+  margin-top: 12px;
+}
+.profile-qoute-footer-info {
+  float: right;
+  text-align: left;
+
+}
+.profile-qoute-footer span {
+}
+.profile-qoute-footer span:nth-of-type(1) {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.profile-qoute-footer span:nth-of-type(2) {
+  color: #666666;
+}
+.profile-qoute-footer span:nth-of-type(3) {
+  color: #ef7575;
+}
+.contact-us h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.contact-us h2 a{
+  color: lightgrey;
+}
+.contact-us h2 span:first-of-type {
+  font-size: 0.8em;
+  color: #666666;
+}
+.contact-us h2 span:not(:first-of-type){
+  color:gray;
+  font-size: 0.5em;
+}
+.user-contact-info {
+  display: flex;
+}
+.user-contact-info input {
+  margin: 0px 2px;
+  background-color: #f2f1f1;
+  border-radius: 10px !important;
+}
+.user-message-info input {
+  margin: 0px 2px;
+  height: 200px !important;
+  background-color: #f2f1f1;
+  border-radius: 10px !important;
+}
+.user-message-info-send {
+  text-align: right;
+}
+.form-group input[type="submit"] {
+  border-radius: 10px !important;
+  width: 150px;
+}
+/* desktop */
+@media screen and (min-width:900px){
+  .user-contact-info{
+    display: block;  }
+  .user-contact-info input{
+    margin: 0px 2px;
+    margin-bottom: 10px!important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .user-contact-info{
+    display: block;  }
+  .user-contact-info input{
+    margin: 0px 2px;
+    margin-bottom: 10px!important;
+  }
+  .testimony-container {
+    width: 100%;
+  }
+  .profile {
+    float: none;
+  }
+  .profile-2 {
+    float: none;
+  }
+  .profile-3{
+    float: none;
+
+  }
+  .profile-item {
+    width: 100%;
+  }
+  .profile-qoute-footer-info {
+    margin: 20px;
+    text-align: center;
+    float: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .testimony-container {
+    width: 100%;
+  }
+}
